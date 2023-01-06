@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.first_section{
+    width: 80%;
+    height: 40%;
+    background: #424242;;
+    display: block;
+    margin: 0 auto;
+}
+.first_section img{
+    margin: 0 auto;
+    display: block;
+    width: 30vw;
+    height: auto;
+}
+h1{
+    text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 10%);
+    grid-auto-rows: 90%;
+    gap: 2vh;
+    justify-content: center;
+}
+.grid-section{
+    background: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

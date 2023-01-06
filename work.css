@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+.contain{
+   width: 100%;
+   display: block;
+}
+.header{
+    height: 40vh;
+    width: 80vw;
+    background: #424242;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+}
+.header img{
+    width: 30vw;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    
+}
+
+iframe{
+    padding: 5vh;
+    width: 90vw;
+    height: 60vh;
+    min-width: 80vw;
+    min-height: 40vh;
+    margin: 0 auto;
+    display: block;
+}
+p{
+    text-align: center;
+}
