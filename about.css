@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.about_encasing{
+    display:flex;
+    width: 100vw;
+    margin-top: 2vh;
+}
+
+.about_photo{
+    flex:1;
+    height: auto;
+     
+}
+.about_me{
+    flex:1;
+    font-size: 4vh;
+    padding: 2vh;
+    top:0;
+    
+}
+article{
+    background: linear-gradient(to right, rgb(238, 225, 225), rgb(221, 213, 213), rgb(189, 174, 174), #d3d3d3);
+    padding: 2vh;
+    margin: 2vh;
+    transform: rotate(-5deg);
+}
+.about_photo img{
+    width: 30vw;
+    height:80vh;
+    border-radius: 0.5vh;
+    border: 0.5vh solid black;
+    margin: 0 auto;
+    display: block;
+    
+    
+}
+@media screen and (max-width:1000px){
+    .about_me{
+        font-size: 3vh;
+    }
+
+}
+@media screen and (max-width:567px){
+    .about_encasing{
+        display: block;
+    }
+    .about_photo{
+        height: auto;
+    }
+    .about_photo img{
+        display: block;
+        margin: 0 auto;
+        width: 20vw;
+        height: auto;
+
+    }
+    .about_me{
+        display: flex;
+        font-size: 2.5vh;
+
+    }
+    article{
+        flex:1;
+        border-radius: 1vh;
+        transform: rotate(0deg);
+        height: fit-content;
+        margin-bottom: 1vh;
+    }
+
+}
+@media screen and (max-width:320px){
+    .about_photo img{
+        display: none;    
+    }
+    .about_me{
+        display: block;
+    }
+    article{
+        width: 90vw;
+        padding: 2vh;
+        display: block;
+        margin: 0 auto;
+        transform: rotate(0deg);
+        font-size:  3vh;
+        border-radius: 2vh;
+    }
+
+}
